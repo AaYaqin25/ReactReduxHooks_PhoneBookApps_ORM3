@@ -43,9 +43,6 @@ export default function UserItem(props) {
         })
     }, [props, user])
 
-    console.log(props.name, 'ini name');
-    console.log(props.phone, 'ini phone');
-    console.log(user.isEdit, 'mode edit');
     return (
         <tr>
             <td>{props.no}</td>
